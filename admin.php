@@ -13,7 +13,7 @@
 ?>
 
 
-		  <li><a href="shop.php">Shop</a></li>
+		  <li><a href="index.php">Shop</a></li>
 		  <li><a href="cart.php">Cart</a></li>
 		  <?php if ($_SESSION['name'] == "admin") echo '<li class="active"><a href="admin.php">Admin</a></li>'; ?>
 		</ul>
